@@ -9,6 +9,7 @@ import StudyingSources from './pages/StudyingSources';
 import Blog from "./pages/Blog";
 import Contribute from "./pages/Contribute";
 import Contact from './pages/Contact'; 
+import About from './pages/About'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import  Footer  from "./components/Footer";
 function App() {
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path="/contribute">
             <Contribute />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
           <Route path="/contact">
             <Contact />

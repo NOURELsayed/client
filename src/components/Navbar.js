@@ -17,7 +17,7 @@ export default () => {
                         <Nav.Link as={ Link } to="/blog">Blog</Nav.Link>
                         <NavDropdown title="More.." id="basic-nav-dropdown">
                             <NavDropdown.Item as={ Link } to="/contribute">How to contribute</NavDropdown.Item>
-                            <NavDropdown.Item href="#about_sm">About SM</NavDropdown.Item>
+                            <NavDropdown.Item  as={ Link } to="/about">About SM</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item as={ Link } to="/contact">Contact us</NavDropdown.Item>
                         </NavDropdown>
